@@ -8,7 +8,7 @@ export default function Description() {
               More than just a music app
             </h1>
             <p className="mt-4 text-lg text-blueGray-200">
-              AR-MONIX is an AI powered music teaching tool. Designed to be as unobtrusive as possible, it will use a device&apos;s camera to recognize a students guitar without input from the user. Through the power of AR, students can follow along with instructions on-screen to learn scales, chords and more. 
+              AR-MONIX is an AR powered music teaching tool. Designed to be as unobtrusive as possible, it will use a device&apos;s camera to recognize a students guitar without input from the user. Through the power of AR, students can follow along with instructions on-screen to learn scales, chords and more. 
             </p>
           </div>
         </div>
