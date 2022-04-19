@@ -1,5 +1,10 @@
 import Head from "next/head"
 import Image from 'next/image'
+import megan from '/public/images/Megan.png'
+import nick from '/public/images/Nick.png'
+import david from '/public/images/David.png'
+import gabriel from '/public/images/Gabriel.png'
+import paul from '/public/images/Paul.jpg'
 
 export default function Team() {
   return (
@@ -15,7 +20,7 @@ export default function Team() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 content-center">
             <div className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
                 <div>
-                    <Image className="object-center object-cover h-auto w-full" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" 
+                    <Image className="object-center object-cover h-auto w-full" src={megan} alt="photo" 
                         height={400}
                         width={400}
                     />
@@ -27,7 +32,7 @@ export default function Team() {
             </div>
             <div className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
                 <div>
-                    <Image className="object-center object-cover h-auto w-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" 
+                    <Image className="object-center object-cover h-auto w-full" src={nick} alt="photo" 
                         height={400}
                         width={400}
                     />
@@ -39,7 +44,7 @@ export default function Team() {
             </div>
             <div className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
                 <div>
-                    <Image className="object-center object-cover h-auto w-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80" alt="photo" 
+                    <Image className="object-center object-cover h-auto w-full" src={david} alt="photo" 
                         height={400}
                         width={400}
                     />
@@ -51,7 +56,7 @@ export default function Team() {
             </div>
             <div className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
                 <div>
-                    <Image className="object-center object-cover h-auto w-full" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" 
+                    <Image className="object-center object-cover h-auto w-full" src={gabriel} alt="photo" 
                         height={400}
                         width={400}
                     />
@@ -63,7 +68,7 @@ export default function Team() {
             </div>
             <div className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
                 <div>
-                    <Image className="object-center object-cover h-auto w-full" src="https://images.unsplash.com/photo-1580841129862-bc2a2d113c45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" 
+                    <Image className="object-center object-cover h-auto w-full" src={paul} alt="photo" 
                         height={400}
                         width={400}
                     />

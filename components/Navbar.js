@@ -17,7 +17,7 @@ export default function Navbar ({children}) {
         </div>
         <div className="hidden lg:block">
           <ul className="inline-flex">
-            <li>
+            {/* <li>
               <Link href="/">
                 <a className="px-4 font-bold" >Home</a>
               </Link>
@@ -31,7 +31,7 @@ export default function Navbar ({children}) {
               <Link href="#">
               <a className="px-4 hover:text-gray-800" >Github</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
